@@ -15,7 +15,7 @@ var tweetler = [
 var email = prompt("email: ")
 var sifre = prompt("şifre: ")
 
-/*function giris(){
+function giris(){
     if((email == kullanicilar[0].email && sifre == kullanicilar[0].sifre) || (email == kullanicilar[1].email && sifre == kullanicilar[1].sifre)){
         console.log(tweetler)
 
@@ -24,7 +24,6 @@ var sifre = prompt("şifre: ")
         console.log("Kullanıcı adı veya şifre hatalı!")
     }
 }
-*/
 
 
 giris(email, sifre)
