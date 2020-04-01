@@ -35,7 +35,22 @@
 // alert(queryElemanlari[0].innerHTML)
 // alert(queryElemanlari[1].innerHTML)
 
+// var isimElemanlari = document.getElementsByName("musteriAdi")
+// alert(isimElemanlari.length)
+// alert(isimElemanlari[0].value)
+// alert(isimElemanlari[0].type)
+
 var isimElemanlari = document.getElementsByName("musteriAdi")
-alert(isimElemanlari.length)
-alert(isimElemanlari[0].value)
-alert(isimElemanlari[0].type)
+var salih = document.getElementById("salih").addEventListener("click", rengiDegistir)
+
+function rengiDegistir(){
+    if(document.getElementById("div1").style.color != "red"){
+        document.getElementById("div1").style.color = "red"
+        
+        isimElemanlari[0].value = "Derin"
+    }
+    else{
+        document.getElementById("div1").style.color = "black"
+        isimElemanlari[0].value = "Salih"
+    }  
+}
