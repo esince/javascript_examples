@@ -41,7 +41,8 @@
 // alert(isimElemanlari[0].type)
 
 var isimElemanlari = document.getElementsByName("musteriAdi")
-var salih = document.getElementById("salih").addEventListener("click", rengiDegistir)
+// var salih = document.getElementById("salih").addEventListener("click", rengiDegistir)
+var salih = document.getElementById("salih").addEventListener("mouseover", rengiDegistir)
 
 function rengiDegistir(){
     if(document.getElementById("div1").style.color != "red"){
