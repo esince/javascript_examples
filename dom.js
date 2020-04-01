@@ -23,14 +23,19 @@
 
 // ctrl +k & ctrl +u --> uncomment
 
-var classElemanlari = document.getElementsByClassName("intro1")
+// var classElemanlari = document.getElementsByClassName("intro1")
 
-alert(classElemanlari.length)
-alert(classElemanlari[0].innerHTML)
-alert(classElemanlari[1].innerHTML)
-alert(classElemanlari[2].innerHTML)
+// alert(classElemanlari.length)
+// alert(classElemanlari[0].innerHTML)
+// alert(classElemanlari[1].innerHTML)
+// alert(classElemanlari[2].innerHTML)
 
-var queryElemanlari = document.querySelectorAll("li.intro1")
-alert(queryElemanlari.length)
-alert(queryElemanlari[0].innerHTML)
-alert(queryElemanlari[1].innerHTML)
+// var queryElemanlari = document.querySelectorAll("li.intro1")
+// alert(queryElemanlari.length)
+// alert(queryElemanlari[0].innerHTML)
+// alert(queryElemanlari[1].innerHTML)
+
+var isimElemanlari = document.getElementsByName("musteriAdi")
+alert(isimElemanlari.length)
+alert(isimElemanlari[0].value)
+alert(isimElemanlari[0].type)
