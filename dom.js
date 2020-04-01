@@ -25,5 +25,12 @@
 
 var classElemanlari = document.getElementsByClassName("intro1")
 
+alert(classElemanlari.length)
 alert(classElemanlari[0].innerHTML)
 alert(classElemanlari[1].innerHTML)
+alert(classElemanlari[2].innerHTML)
+
+var queryElemanlari = document.querySelectorAll("li.intro1")
+alert(queryElemanlari.length)
+alert(queryElemanlari[0].innerHTML)
+alert(queryElemanlari[1].innerHTML)
