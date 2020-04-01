@@ -27,6 +27,7 @@ function kullaniciVarMi(email, sifre){
 }
 
 function giris(){
+    alert(arguments[0]) //prints out email 
     kullaniciVarMi(email, sifre)
     if(kullaniciVarMi(email, sifre)){
         console.log(tweetler)
