@@ -40,18 +40,21 @@
 // alert(isimElemanlari[0].value)
 // alert(isimElemanlari[0].type)
 
-var isimElemanlari = document.getElementsByName("musteriAdi")
-// var salih = document.getElementById("salih").addEventListener("click", rengiDegistir)
-var salih = document.getElementById("salih").addEventListener("mouseover", rengiDegistir)
+// var isimElemanlari = document.getElementsByName("musteriAdi")
+// // var salih = document.getElementById("salih").addEventListener("click", rengiDegistir)
+// var salih = document.getElementById("salih").addEventListener("mouseover", rengiDegistir)
 
-function rengiDegistir(){
-    if(document.getElementById("div1").style.color != "red"){
-        document.getElementById("div1").style.color = "red"
+// function rengiDegistir(){
+//     if(document.getElementById("div1").style.color != "red"){
+//         document.getElementById("div1").style.color = "red"
         
-        isimElemanlari[0].value = "Derin"
-    }
-    else{
-        document.getElementById("div1").style.color = "black"
-        isimElemanlari[0].value = "Salih"
-    }  
-}
+//         isimElemanlari[0].value = "Derin"
+//     }
+//     else{
+//         document.getElementById("div1").style.color = "black"
+//         isimElemanlari[0].value = "Salih"
+//     }  
+// }
+
+var node = document.getElementById("agac")
+alert(node.childNodes[0].nodeValue)
