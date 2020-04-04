@@ -4,7 +4,7 @@ var sehir = "ankara"
 sayi = 11
 sehir = "istanbul"
 
-//it can be possible in js
+//it can be possible in js 
 var sehir = "adana"
 
 
@@ -16,6 +16,11 @@ il = "Bursa"
 //Identifier 'il' has already been declared
 // let il = "İzmir" 
 
-console.log(sayi)
-console.log(sehir)
-console.log(il)
+function mesajVer(){
+    console.log(sehir)
+}
+// console.log(sayi)
+// console.log(sehir)
+// console.log(il)
+
+mesajVer() //prints "adana"
