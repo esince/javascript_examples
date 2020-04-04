@@ -10,3 +10,11 @@ const selamFonksiyonu2 = () =>{
 }
 
 selamFonksiyonu2()
+
+const selamFonksiyonu3 = (mesaj, m) =>{
+    console.log(mesaj, m)
+    
+}
+
+selamFonksiyonu3("Hello array func", "another message")
+
