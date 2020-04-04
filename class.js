@@ -4,4 +4,6 @@ class Personel{
     }
 }
 
-Personel.kaydet()
+const personel = new Personel()
+
+personel.kaydet()
