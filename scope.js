@@ -1,35 +1,41 @@
-var sayi = 10
-var sehir = "ankara"
+// var sayi = 10
+// var sehir = "ankara"
 
-sayi = 11
-sehir = "istanbul"
+// sayi = 11
+// sehir = "istanbul"
 
-//it can be possible in js 
-var sehir = "adana"
+// //it can be possible in js 
+// var sehir = "adana"
 
 
-let il = "Ankara"
+// let il = "Ankara"
 
-il = "Bursa"
+// il = "Bursa"
 
-//Uncaught SyntaxError: 
-//Identifier 'il' has already been declared
-// let il = "İzmir" 
+// //Uncaught SyntaxError: 
+// //Identifier 'il' has already been declared
+// // let il = "İzmir" 
 
-function mesajVer(){
-    var isim = "engin"
-    console.log(sehir)
-    console.log(isim)
-}
-// console.log(sayi)
-// console.log(sehir)
-// console.log(il)
+// function mesajVer(){
+//     var isim = "engin"
+//     console.log(sehir)
+//     console.log(isim)
+// }
+// // console.log(sayi)
+// // console.log(sehir)
+// // console.log(il)
 
-mesajVer() //prints "adana"
+// mesajVer() //prints "adana"
 // console.log(isim)
 
-for (var i = 0; i < 10; i++) {
+// for (let i = 0; i < 10; i++) {
     
     
-}
-console.log(i)
+// }
+// console.log(i)
+
+const soyad = "demirog"
+
+soyad = "aydin"
+console.log(soyad)
+
