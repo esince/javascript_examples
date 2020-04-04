@@ -18,3 +18,10 @@ const selamFonksiyonu3 = (mesaj, m) =>{
 
 selamFonksiyonu3("Hello array func", "another message")
 
+var topla = (sayi1, sayi2) => {
+    return sayi1 + sayi2
+}
+
+let toplam = topla(3,4)
+
+console.log(toplam)
