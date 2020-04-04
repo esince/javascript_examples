@@ -34,8 +34,16 @@
 // }
 // console.log(i)
 
-const soyad = "demirog"
+// const soyad = "demirog"
 
-soyad = "aydin"
-console.log(soyad)
+// // soyad = "aydin"
+// console.log(soyad)
+
+
+//diziler ve nesneler referans tiptir. 
+const sehirler = ["ankara", "istanbul"]
+console.log(sehirler)
+
+sehirler.push("izmir")
+console.log(sehirler)
 
