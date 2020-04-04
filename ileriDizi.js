@@ -9,3 +9,13 @@ dizi.forEach(sayi => {
 
 
 console.log(kareDizisi)
+
+//map
+// const mapDizi = dizi.map(sayi=>{
+//     return sayi * 3
+    
+// })
+const mapDizi = dizi.map(sayi=> sayi * 3)
+
+console.log(mapDizi)
+
