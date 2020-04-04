@@ -19,10 +19,11 @@ il = "Bursa"
 function mesajVer(){
     var isim = "engin"
     console.log(sehir)
+    console.log(isim)
 }
 // console.log(sayi)
 // console.log(sehir)
 // console.log(il)
 
 mesajVer() //prints "adana"
-console.log(isim)
+// console.log(isim)
