@@ -27,3 +27,9 @@ function mesajVer(){
 
 mesajVer() //prints "adana"
 // console.log(isim)
+
+for (var i = 0; i < 10; i++) {
+    
+    
+}
+console.log(i)
