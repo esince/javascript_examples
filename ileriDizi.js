@@ -19,3 +19,6 @@ const mapDizi = dizi.map(sayi=> sayi * 3)
 
 console.log(mapDizi)
 
+//filter
+const filtreliDizi = dizi.filter(sayi => sayi >= 2)
+console.log(filtreliDizi)
