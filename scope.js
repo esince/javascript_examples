@@ -17,6 +17,7 @@ il = "Bursa"
 // let il = "İzmir" 
 
 function mesajVer(){
+    var isim = "engin"
     console.log(sehir)
 }
 // console.log(sayi)
@@ -24,3 +25,4 @@ function mesajVer(){
 // console.log(il)
 
 mesajVer() //prints "adana"
+console.log(isim)
