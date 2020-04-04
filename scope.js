@@ -47,3 +47,7 @@ console.log(sehirler)
 sehirler.push("izmir")
 console.log(sehirler)
 
+//gives error: Uncaught TypeError: 
+//Assignment to constant variable. at scope.js:52
+// sehirler = ["Bursa", "mardin"]
+
